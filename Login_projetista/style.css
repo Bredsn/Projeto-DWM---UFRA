@@ -89,13 +89,12 @@ img {
 
 /*=============== LOGIN  ===============*/
 .login-container {
-    max-width: 1120px; /* Limite a largura máxima */
-    margin: 0 auto; /* Centraliza horizontalmente */
-    height: 100vh; /* Para centralização vertical */
-    display: flex; /* Para usar flexbox */
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
-  }
+    max-width: 1120px; 
+    margin: 0 auto; 
+    height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
   
 
 .login {
