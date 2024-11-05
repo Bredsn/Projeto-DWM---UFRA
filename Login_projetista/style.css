@@ -79,7 +79,7 @@ img {
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1120px;
-  margin-inline: 1.5rem;
+  margin-inline: auto;
 }
 
 .grid {
@@ -88,6 +88,16 @@ img {
 }
 
 /*=============== LOGIN  ===============*/
+.login-container {
+    max-width: 1120px; /* Limite a largura máxima */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    height: 100vh; /* Para centralização vertical */
+    display: flex; /* Para usar flexbox */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+  }
+  
+
 .login {
     position: relative;
     height: 100vh;
